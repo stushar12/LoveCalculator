@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ff69b4">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:padding="20sp"
+        android:hint="ENTER YOUR NAME"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:padding="20sp"
+        android:layout_below="@id/editText1"
+        android:hint="ENTER YOUR LOVER NAME"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/button"
+    android:layout_below="@id/editText2"
+    android:text="CALCULATE"
+    android:textColor="#ff1493"
+    android:padding="20sp"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="175dp"
+        android:layout_height="345dp"
+        android:layout_below="@id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-58dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginBottom="323dp"
+        android:layout_toRightOf="@id/imageView3"
+        android:scaleType="centerInside"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:src="@drawable/heart" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="175dp"
+        android:layout_height="345dp"
+        android:layout_below="@id/button"
+        android:layout_alignStart="@+id/imageView1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="236dp"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginBottom="320dp"
+        android:layout_toRightOf="@id/imageView1"
+        android:scaleType="centerInside"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:src="@drawable/heart" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="58dp"
+        android:layout_height="125dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="80sp"
+        android:layout_marginBottom="228dp"
+        android:scaleType="centerInside"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:src="@drawable/heart" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="58dp"
+        android:layout_height="125dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-8dp"
+        android:layout_marginLeft="109dp"
+        android:layout_marginTop="80sp"
+        android:layout_marginBottom="324dp"
+        android:layout_toEndOf="@id/imageView1"
+        android:layout_toRightOf="@id/imageView3"
+        android:scaleType="centerInside"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:src="@drawable/heart" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="58dp"
+        android:layout_height="125dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-49dp"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="80sp"
+        android:layout_marginBottom="233dp"
+        android:layout_toEndOf="@id/imageView2"
+        android:layout_toRightOf="@id/imageView4"
+        android:scaleType="centerInside"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:src="@drawable/heart" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginTop="450dp"
+        android:layout_toEndOf="@id/imageView3"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/heart" />
+
+
+
+</RelativeLayout>
